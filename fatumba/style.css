@@ -401,3 +401,9 @@ footer address {
 footer {
     padding: 20px;
 }
+.footer_left {
+    float: left;
+}
+.footer_right {
+    float: right;
+}
