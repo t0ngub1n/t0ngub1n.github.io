@@ -399,11 +399,12 @@ footer address {
     font-family: Philosopher;
 }
 footer {
-    padding: 20px;
+    margin: 20px;
 }
 .footer_left {
     float: left;
 }
 .footer_right {
     float: right;
+    text-align: right;
 }
