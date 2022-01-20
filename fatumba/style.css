@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Reggae+One&display=swap');
+@import url('reset.css');
+
+.header_menu {
+    font: normal 20px Philosopher;
+    color: #faeedd;
+    margin-left: 250px;
+    margin-top: 56px;
+}
+header {
+    background: #ab274f;
+    padding-bottom: 30px;
+    width: 100%;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.header_wrapper {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background: #faeedd;
+}
+.header_logo {
+    cursor: pointer;
+    font: bold 48px 'Reggae One';
+    color: #faeedd;
+    margin-top: 30px;
+    white-space: pre;
+}
+.header_menu a {
+    margin-left: 60px;
+}
+.wrapper {
+    max-width: 1550px;
+    margin: 0 auto;
+}
+
+.intro {
+    background: url("background.jpg") 100%;
+    height: 100vh;
+    font-family: Philosopher;
+}
+.intro_wrapper {
+    min-height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.intro h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.intro p {
+    font-size: 24px;
+    max-width: 640px;
+}
+.about {
+    font-family: Philosopher;
+    background: #fff;
+}
+.about_wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about h1 {
+    font-size: 48px;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+.about p {
+    font-size: 24px;
+    max-width: 640px;
+    margin-bottom: 100px;
+}
+.tools {
+    background: #faeedd;
+    font-family: Philosopher;
+}
+.tools_wrapper {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+
+}
+.left_tools {
+    width: 445px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+.tools h3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+.tools h4 {
+    font-size: 18px;
+    color: #ab274f;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+.tool_1 {
+    position: relative;
+}
+.tool_1::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_1::after {
+    content: "";
+    width: 20%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_1::after:hover {
+    content: "20%";
+}
+.tool_2 {
+    position: relative;
+}
+.tool_2::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_2::after {
+    content: "";
+    width: 40%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_3 {
+    position: relative;
+}
+.tool_3::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_3::after {
+    content: "";
+    width: 25%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_4 {
+    position: relative;
+}
+.tool_4::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #c4c4c4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.tool_4::after {
+    content: "";
+    width: 15%;
+    height: 4px;
+    background-color: #ab274f;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.projects {
+    background-color: #fff;
+}
+.projects_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.projects_text {
+    text-align: center;
+    font-family: Philosopher;
+}
+.projects h1 {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.projects address {
+    font: 20px normal;
+    margin-bottom: 50px;
+    font-family: Philosopher;
+}
+.video {
+    margin-bottom: 100px;
+}
+.header_menu a {
+    text-decoration: none;
+    color: #faeedd;
+}
+.anchor::before { 
+    display: block; 
+    content: " "; 
+    height: 90px;
+    visibility: hidden; 
+    pointer-events: none;
+}
+.anchor::after { 
+    display: block; 
+    content: " "; 
+    height: 90px;
+    visibility: hidden; 
+    pointer-events: none;
+}
+.send_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #faeedd;
+}
+.send h1 {
+    font-size: 32px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.send p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.send_form {
+    background: #faeedd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form1 {
+    width: 540px;
+    height: 175px;
+    margin-bottom: 50px;
+    resize: none;
+}
+
+.form {
+    border: 0;
+    font-size: 14px;
+    color: #5f5d5d;
+    padding: 17px 20px;
+    background: #fff;
+}
+.form, button, iframe {
+    border-radius: 5px;
+}
+.send_button {
+    width: 190px;
+    height: 55px;
+    border: 0;
+    background: #ab274f;
+    font-size: 14px;
+    color: #faeedd;
+    text-align: center;
+    letter-spacing: 0.15em;
+    padding: 20px 19px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.form2 {
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.form2, .form3 {
+    width: 250px
+}
+.form, .send_wrapper, .send_button {
+    font-family: Philosopher;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+}
+.gallery_img {
+    width: 100%;
+}
+.lightzoom {
+    width: 25%;
+}
+.platforms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.platforms img {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.header_logo img {
+    width: 80px;
+    padding-bottom: 13px;
+}
+.intro_button {
+    width: 225px;
+    height: 65px;
+    border: 0;
+    background: #ab274f;
+    font-size: 16px;
+    color: #faeedd;
+    text-align: center;
+    letter-spacing: 0.15em;
+    padding: 20px 19px;
+    margin-top: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Philosopher;
+}
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(55, 0, 0, 0.4);
+    z-index: 999;
+    display: none;
+}
+.modal_content {
+    padding: 20px;
+    margin: 7% auto;
+    background-color: #faeedd;
+    width: 70%;
+}
+.close {
+    font-size: 48px;
+    color: #ab274f;
+    float: right;
+    cursor: pointer;
+    display: inline;
+    padding: 5px;
+    font-family: Reggae One;
+}
+.modal h1 {
+    color: black;
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.modal_button {
+    width: 190px;
+    height: 55px;
+    border: 0;
+    background: #ab274f;
+    font-size: 14px;
+    color: #faeedd;
+    text-align: center;
+    letter-spacing: 0.15em;
+    padding: 20px 19px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 40px;
+    font-family: Philosopher;
+}
+.ytlink {
+    font-weight: bold;
+    font-family: Philosopher;
+    font-size: 48px;
+    margin-top: 191px;
+    padding-bottom: 191px !important;
+}
+.projects adress {
+    margin-top: 50px;
+}
+footer address {
+    font-style: italic;
+    font-family: Philosopher;
+}
+footer {
+    padding: 20px;
+}

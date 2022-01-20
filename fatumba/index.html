@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт Фатумба</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header_wrapper">
+                <div class='header_logo' id="logo">F<img src="gamepad.svg" alt="A" id="gamepad">TUMB<img src="gamepad.svg" alt="A" id="gamepad2"></div>
+                <div class='header_menu'>
+                    <a href="#top">ГЛАВНАЯ</a>
+                    <a href="#about">О&nbsp;КОМПАНИИ</a>
+                    <a href="#projects">ПРОЕКТЫ</a>
+                    <a href="#send">КОНТАКТЫ</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <noscript>
+            <style>
+                .intro_button, iframe {
+                    display: none;
+                }
+            </style>
+        </noscript>
+        <section class="intro">
+            <div class="wrapper">
+                <div class="intro_wrapper">
+                    <h1>Добро пожаловать, друг!
+                    </h1>
+
+                    <p>
+                        Студия по разработке компьютерных игр «Фатумба» приветствует тебя на нашем сайте.
+                        Наверняка ты уже знаком с нашими играми, раз зашёл сюда,
+                        но всё-же позволь нам рассказать о себе, листай ниже.
+                    </p>
+                    <button class="intro_button" id="introButton">НАПИШИ НАМ</button>
+                    <div class="modal" id="modal">
+                        <div class="modal_content" id="modalContent">
+                            <div class="close" id="close">×</div>
+                            <div class="send_wrapper">
+                                <h1>НАПИШИ НАМ</h1>
+                                <form>
+                                    <div class="send_form">
+                                        <div>
+                                            <input type="text" name="name" class="form2 form" placeholder="Ваше имя" required>
+                                            <input type="email" name="email" class="form3 form" placeholder="Ваш e-mail" required>
+                                        </div>
+                                        <textarea name="msg" cols="30" rows="10" class="form1 form" placeholder="Сообщение" required></textarea>
+                                        <button class="modal_button" id="modalBtn" type="submit">
+                                            ОТПРАВИТЬ
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <a name=about></a>
+        <section class="about">
+            <div class="wrapper">
+                <div class="about_wrapper">
+                    <h1>О компании</h1>
+                    <p>
+                        «Фатумба» уже 2 года на рынке мобильных игр.
+                        Совместно с компанией CodeClass, мы разработали уже 4 игры:
+                        Pirate's Andventure, Find the Dragon's Egg, Find the Gong и Quiz.
+                        Суммарная аудитория наших игр превышает 1000 игроков!
+                        Команда Fatumba всегда ставит перед собой технологически сложные задачи,
+                        продумывает реализацию игры до мелочей
+                        и успешно укладывается в сроки.
+                        Мы используем новейшие инструменты для разработки игр
+                        и очень внимательно следим за последними тенденциями в гейм-деве.
+                    </p>
+                </div>
+                <div class="platforms">
+                    <a href="https://store.steampowered.com/"><img src="steam.svg" alt="Steam"></a> <!-- Steam -->
+                    <a href="https://www.apple.com/ru"><img src="apple.svg" alt="iOS"></a> <!-- iOS -->
+                    <a href="https://www.android.com/"><img src="android.svg" alt="Android"></a> <!-- Android -->
+                    <a href="https://www.playstation.com/ru-ru/"><img src="playstation.svg" alt="PlayStation"></a> <!-- PlayStation -->
+                    <a href="https://www.xbox.com/ru-RU/"><img src="xbox.svg" alt="Xbox"></a> <!-- Xbox -->
+                    <a href="https://www.nintendo.ru/-/-Nintendo-Switch/Nintendo-Switch/Nintendo-Switch-1148779.html"><img src="nintendo-switch.svg" alt="Switch"></a> <!-- Nintendo Switch -->
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="gallery">
+                <a href="Photo1.png" class="lightzoom">
+                    <img src="Photo1.png" alt="Скриншот #1" class="gallery_img">
+                </a>
+                <a href="Photo2.jpg" class="lightzoom">
+                    <img src="Photo2.jpg" alt="Скриншот #2" class="gallery_img">
+                </a>
+                <a href="Photo3.jpg" class="lightzoom">
+                    <img src="Photo3.jpg" alt="Скриншот #3" class="gallery_img">
+                </a>
+                <a href="Photo4.jpg" class="lightzoom">
+                    <img src="Photo4.jpg" alt="Скриншот #4" class="gallery_img">
+                </a>
+            </div>
+        </section>
+
+        <section class="tools">
+            <div class="wrapper">
+                <div class="tools_wrapper">
+                    <div class="left_tools">
+                        <h3>Наши инструменты:</h3>
+                        <h4 class='tool_1'>Unity</h4>
+                        <h4 class='tool_2'>Unreal Engine 4 + Blender</h4>
+                        <h4 class='tool_3'>Python</h4>
+                        <h4 class='tool_4'>Java + Android</h4>
+                    </div>
+                    <div class="right_tools">
+                        <img src="tools.PNG" alt="Unity, Unreal Engine 4, Blender, Python, Java, Android" class="tools_image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <a name=projects></a>
+        <section class="projects">
+            <div class="wrapper">
+                <div class="projects_wrapper">
+                    <div class="projects_text">
+                        <h1>Наши проекты</h1>
+                        <address>Трейлер игры «Find the Dragon's Egg»</address>
+                    </div>
+
+                    <noscript>
+                        <a href="https://www.youtube.com/watch?v=JuDq7u2S4eQ" class="ytlink">YouTube</a>
+                    </noscript>
+                    <iframe class="video" width="740" height="380" src="https://www.youtube.com/embed/JuDq7u2S4eQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <div class="projects_text">
+                        <address>Трейлер игры «Find the Gong!»</address>
+                    </div>
+                    <noscript><a href="https://www.youtube.com/watch?v=fd1wuv3DIBg" class="ytlink">YouTube</a></noscript>
+                    <iframe class="video" width="740" height="380" src="https://www.youtube.com/embed/fd1wuv3DIBg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="gallery">
+                <a href="1.png" class="lightzoom">
+                    <img src="1.png" alt="Скриншот #1" class="gallery_img">
+                </a>
+                <a href="2.png" class="lightzoom">
+                    <img src="2.png" alt="Скриншот #2" class="gallery_img">
+                </a>
+                <a href="3.png" class="lightzoom">
+                    <img src="3.png" alt="Скриншот #3" class="gallery_img">
+                </a>
+                <a href="4.png" class="lightzoom">
+                    <img src="4.png" alt="Скриншот #4" class="gallery_img">
+                </a>
+            </div>
+            <div class="gallery">
+                <a href="5.png" class="lightzoom">
+                    <img src="5.png" alt="Скриншот #5" class="gallery_img">
+                </a>
+                <a href="6.png" class="lightzoom">
+                    <img src="6.png" alt="Скриншот #6" class="gallery_img">
+                </a>
+                <a href="7.png" class="lightzoom">
+                    <img src="7.png" alt="Скриншот #7" class="gallery_img">
+                </a>
+                <a href="8.png" class="lightzoom">
+                    <img src="8.png" alt="Скриншот #8" class="gallery_img">
+                </a>
+            </div>
+        </section>
+
+        <a name=send></a>
+        <section class="send">
+            <div class="wrapper">
+                <div class="send_wrapper">
+                    <h1>НАПИШИ НАМ</h1>
+                    <p>
+                        Если ты хочешь поработать с нами или просто пообщаться, заполни форму.
+                    </p>
+                    <form>
+                        <div class="send_form">
+                            <div>
+                                <input type="text" name="name" class="form2 form" placeholder="Ваше имя" required>
+                                <input type="email" name="email" class="form3 form" placeholder="Ваш e-mail" required>
+                            </div>
+                            <textarea name="msg" cols="30" rows="10" class="form1 form" placeholder="Сообщение" required></textarea>
+                            <button class="send_button">
+                                ОТПРАВИТЬ
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <address>
+            ООО «ФАТУМБА»,<br>Россия, Москва, пр-т Мира 108<br>Все права защищены.
+        </address>
+    </footer>
+
+    <link rel="stylesheet" href="lightzoom/style.css">
+    <script src="lightzoom/lightzoom.js"></script>
+
+    <script>
+        jQuery(".lightzoom").lightzoom({
+            overlayOpacity: 0.9,
+            isEscClosing: true,
+            speed: 400,
+            isOverlayClickClosing: true,
+            viewTitle: true,
+        })
+    </script>
+    <script src="myscript.js"></script>
+</body>
+
+</html>
